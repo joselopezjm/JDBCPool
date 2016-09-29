@@ -1,11 +1,7 @@
 package jmlv.org.JDBCPool;
 
 import java.io.IOException;
-import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import jmlv.org.jbuilder.JBuilder;
 import jmlv.org.jdbconnection.JDBConnection;
 
 public class TestNoPool implements Runnable {
