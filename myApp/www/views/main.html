@@ -1,0 +1,19 @@
+<ion-view>
+<div class="bar bar-header bar-stable">
+  <h1 class="title">Main</h1>
+</div>
+<ion-content class="has-header">
+<br>
+<div class="row">
+	<div ng-click="doUp()" class="col" style="text-align: center;"><button class="button button-positive"><i class="icon ion-arrow-up-a"></i></button></div>
+</div>
+<div class="row">
+	<div class="col" style="text-align: center;"><button class="button button-positive" ng-click="doLeft()"><i class="icon ion-arrow-left-a"></i></button></div>
+	<div class="col" style="text-align: center;"><button class="button button-positive" ng-click="doRight()"><i class="icon ion-arrow-right-a"></i></button></div>
+</div>
+<div class="row">
+	<div class="col" style="text-align: center;"><button class="button button-positive" ng-click="doDown()"><i class="icon ion-arrow-down-a"></i></button></div>
+</div>
+	<div style="text-align: center;">{{response}}</div>
+</ion-content>
+</ion-view>
